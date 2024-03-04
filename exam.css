@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+}
+  
+.quiz-container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+  
+.question {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+  
+.question p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.choices label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: hsl(211, 97%, 49%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    background-color: #065ab3;
+}
+  
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(to right, #2980b9, #6dd5fa); /* Gradient background */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    transition: background 0.3s; /* Smooth transition effect */
+    z-index: 1000;
+}
+
+#header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#header:hover {
+    background: linear-gradient(to right, #6dd5fa, #2980b9); /* Change background on hover */
+}
+
+.content {
+    margin-top: 100px;
+}
+  
